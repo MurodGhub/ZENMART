@@ -1,4 +1,7 @@
 html,
+.root {
+  --font: "Jost";
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -78,7 +81,7 @@ p {
   outline: none;
 
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -94,7 +97,7 @@ p {
   outline: none;
 
   color: rgba(98, 105, 116, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -153,7 +156,7 @@ p {
   flex-direction: column;
 }
 .navbar_frame .box_info_box span {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -161,7 +164,7 @@ p {
   color: #ffffff;
 }
 .navbar_frame .box_info_box strong {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -182,7 +185,7 @@ p {
   background: #f5c34b;
   border-radius: 50%;
 
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 700;
   font-size: 8px;
@@ -222,7 +225,7 @@ p {
 }
 .navbar_frame .browse_box span {
   color: rgba(255, 255, 255, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -243,7 +246,7 @@ p {
   display: flex;
 }
 .navbar_frame .router_menu a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -261,7 +264,7 @@ p {
 .navbar_frame .sorting_menu span {
   margin-left: 20px;
   color: rgba(255, 255, 255, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -286,8 +289,7 @@ p {
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
-  font-size: 18px;
+  font-family: var(--font);
   font-weight: 500;
   line-height: 100%;
   letter-spacing: 0%;
@@ -324,7 +326,7 @@ p {
 .footer_frame .footer_contact_main div strong {
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -335,7 +337,7 @@ p {
   margin-top: 10px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -350,7 +352,7 @@ p {
 .footer_frame .footer_support_box a {
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -386,7 +388,7 @@ p {
   margin-left: 28px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -427,7 +429,7 @@ p {
   margin-right: 60px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -457,7 +459,7 @@ p {
 .footer_frame .footer_select_box span {
   color: rgba(98, 105, 116, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -474,7 +476,7 @@ p {
   cursor: pointer;
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
